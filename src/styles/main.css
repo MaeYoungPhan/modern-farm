@@ -1,7 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/10/28/farm-landscape-with-shed-and-windmill-vector-21751028.jpg");
+    background-size: cover;
+    margin-top: 100px;
+}
+
 /*Typography
 --------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 450px;
+    height: 450px;
+    color: yellow;
+    border: 5px dashed goldenrod;
+    padding: 15px 0px 15px 20px;
+    background-image: url("https://t4.ftcdn.net/jpg/02/03/53/83/360_F_203538316_fwVfdJorJuZQQum1F47ghOipEF87yMgT.jpg");
+}
+
+.plant {
+    display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    color: #f7f7f7;
+}
+
 body,
 button,
 input,
